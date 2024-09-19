@@ -1,0 +1,260 @@
+<html></html>
+
+<head>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-BTVjAN1wMqVdYL2HsBX8r3PyFNU9MweXBDihFN+9MigJl7xok+4wq3dK8owmTRjG" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyVn6a7dEaE+E3SEs29QpLm3J4iL2F5J9" crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Our Amazing Digestive System: Explore the digestive process, from the moment we eat to the absorption of nutrients in our bodies.</title>
+  <link href="filename.css" rel="stylesheet" type="text/css" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href ="filename.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+            color: black;
+            font-weight: 800;
+        }
+
+        /* Define different colors for each section */
+        section:nth-child(odd) {
+            background-color: #f0f8ff; /* Light Blue */
+        }
+
+        section:nth-child(even) {
+            background-color: #ffe4e1; /* Misty Rose */
+        }
+      
+
+      nav {
+          background-color: #333;
+          color: #fff;
+          display: flex;
+          justify-content: space-between;
+          padding: 10px;
+        position: fixed;
+      }
+
+      .navbar-item {
+          position: relative;
+      }
+
+      .navbar-item:hover .dropdown-content {
+          display: block;
+      }
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #333;
+          min-width: 160px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+      }
+
+      .dropdown-item {
+          padding: 10px;
+          text-decoration: none;
+          color: #fff;
+          display: block;
+      }
+
+      .toggle-btn {
+          background-color: #555;
+          color: #fff;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+      }
+    .jumbotron {
+      background-image: url('download(7).jpeg');
+      background-color: maroon;
+      color: green;
+      padding: 100px;
+      text-align: center;
+      
+    }
+    .profile-card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+     <nav>
+         <div class="navbar-item">
+             <a href="#home" class="toggle-btn">Home</a>
+             <div class="dropdown-content">
+                 <a href="#bio" class="dropdown-item">Biology</a>
+                 <a href="#human" class="dropdown-item">Human</a>
+          <a href="#purpose" class="dropdown-item">Purpose</a>
+             </div>
+         </div>
+
+         <div class="navbar-item">
+             <a href="#system" class="toggle-btn">About System</a>
+             <div class="dropdown-content">
+                 <a href="#organ" class="dropdown-item">Organs </a>
+               <a class="nav-link" href="https://www.verywellhealth.com/what-are-digestive-enzymes-1945036" target="_blank" class="dropdown-item">Enzymes</a>
+               <a class="nav-link" href="https://courses.lumenlearning.com/suny-dutchess-ap1/chapter/anatomy-of-organs-of-the-digestive-system-and-their-functions/" target="_blank" class="dropdown-item">Functions</a>
+             </div>
+         </div>
+
+         <div class="navbar-item">
+             <a href="#support" class="toggle-btn">Support Us</a>
+             <div class="dropdown-content">
+         <a class="nav-link" href="https://86301845-d9ae-4809-a75d-a1223dbed21c-00-2xsdqehe1qz8a.picard.replit.dev/" target="_blank" class="dropdown-item">Donate</a>
+               <a class="nav-link" href="https://83024be8-5f06-4e3d-8b7e-3be92847b71e-00-1iq34blrukv32.kirk.replit.dev/" target="_blank" class="dropdown-item">Register</a>
+            <a href="#contact" class="dropdown-item">Contact Us</a>
+             </div>
+         </div>
+     </nav>
+     <script>
+         document.addEventListener("DOMContentLoaded", function () {
+             const toggleBtns = document.querySelectorAll('.toggle-btn');
+             toggleBtns.forEach(function (btn) {
+                 btn.addEventListener('click', function () {
+                     const dropdownContent = this.nextElementSibling;
+                     dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+                 });
+             });
+         });
+     </script>
+<div id="home" class="jumbotron">
+  <h1>This website is specialized in the digestive system of humans</h1>
+</div>
+<br>
+</header>
+  <div id="bio" class="container">
+<h1>Relation to biology</h1>
+    <p class="lead">Biology is the scientific study of living organisms and their interactions with each other and their environments.<b> The digestive system</b> is a crucial component of biology as it pertains to the study of living organisms, particularly in the context of anatomy, physiology, and biochemistry. The digestive system is responsible for the breakdown of food into nutrients that can be absorbed and utilized by the body.</p>
+  </div><br>
+<div id="human" class="container">
+  <h1>Main focussed species: HUMAN</h1>
+  <section>
+<p class="lead">   <b> Anatomy:</b>
+          Biology involves the study of the structure of living organisms. The digestive system comprises various organs, including the mouth, esophagus, stomach, small intestine, and large intestine. Understanding the anatomy of these organs is fundamental to biology.</p></section>
+<br><section>
+ <p class="lead"></p>     <b>Physiology</b>
+          Physiology is the study of the functions and processes of living organisms. The digestive system plays a critical role in the physiological processes related to digestion, absorption of nutrients, and elimination of waste. Biology explores how these processes are regulated and coordinated.</p></section>
+<br><section>
+<p class="lead">      <b>Biochemistry:</b>
+          Biochemistry delves into the chemical processes occurring within living organisms. In the context of the digestive system, biology investigates the enzymes, hormones, and molecular mechanisms involved in breaking down complex food molecules into simpler forms that can be absorbed and utilized by cells.
+</p></section><br>
+  <section>
+  <p class="lead">  <b>    Nutrition:</b>
+          Biology explores the nutritional requirements of living organisms, and the digestive system is central to nutrient acquisition. It examines the types of nutrients needed, their sources in various foods, and how they contribute to the overall health and functioning of the organism.</p></section>
+<br><section>
+<p class="lead"> <b>    Interactions with Other Systems:</b>
+          Biology considers the interactions between different organ systems. For example, the digestive system interacts with the circulatory system to transport nutrients throughout the body. Understanding these interactions is essential for comprehending the holistic functioning of living organisms.</p></section>
+<br><section>
+  <p class="lead">  <b>  Evolutionary Perspectives:</b>
+          Biology also explores the evolutionary aspects of living organisms, including the development and adaptation of organ systems over time. The evolution of the digestive system is studied to understand how it has changed in response to environmental and ecological factors.</p></section>
+<br><section>
+<p class="lead"> <b>      Health and Disease:</b>
+          The study of the digestive system in biology is crucial for understanding health and disease. Disorders and diseases related to the digestive system, such as gastritis, ulcers, and inflammatory bowel diseases, are explored within the context of biology and contribute to the field of medical biology.</p></section><br><br>
+<section>
+<p class="lead">  In summary, the digestive system is an integral part of the broader field of biology. It involves the exploration of anatomy, physiology, biochemistry, nutrition, evolutionary history, and health implications related to how living organisms process and utilize nutrients for survival and growth.
+</p></section></div>
+<br><br>
+<div id="purpose" class="container">
+  <h1>The purpose of the Digestive System in Human</h1>
+  <section>
+      <h2>Ingestion</h2>
+      <p>The digestive system begins its function with the intake of food. This process involves the consumption of various nutrients, including carbohydrates, proteins, fats, vitamins, and minerals, which are necessary for the body's growth, energy, and maintenance.</p>
+  </section>
+  <section>
+      <h2>Mechanical and Chemical Digestion</h2>
+      <p>The food undergoes both mechanical and chemical digestion.Mechanical digestion involves the physical breakdown of food into smaller particles through chewing in the mouth and the churning movements of the stomach. Chemical digestion involves the action of enzymes that break down complex molecules into simpler forms that can be absorbed.</p>
+  </section>
+  <section>
+      <h2>Absorption of Nutrients</h2>
+      <p>The small intestine is primarily responsible for absorbing nutrients. Nutrients such as amino acids, fatty acids, glucose, vitamins, and minerals are absorbed into the bloodstream and transported to various cells and tissues for energy production, growth, and repair.</p>
+  </section>
+  <section>
+      <h2>Transportation and Storage</h2>
+      <p>The digestive system helps in the transportation of nutrients and water throughout the body. Nutrients are delivered to cells and tissues, while excess nutrients are stored for future use, particularly in the liver and adipose tissue.</p>
+  </section>
+  <section>
+      <h2>Elimination of Waste</h2>
+      <p>The undigested and unabsorbed components of food, along with other waste materials, are formed into feces in the large intestine. The digestive system facilitates the elimination of these waste products from the body through the rectum and anus in a process known as defecation.</p>
+  </section>
+  <section>
+      <h2>Maintenance of Fluid and Electrolyte Balance</h2>
+      <p>The digestive system plays a role in maintaining the balance of fluids and electrolytes in the body.Water absorption occurs in the intestines, helping regulate hydration levels and electrolyte concentrations in the blood and tissues.</p>
+  </section>
+  <section>
+      <h2>Immune Defense</h2>
+      <p>The digestive system provides a barrier against harmful microorganisms present in ingested food. The stomach, in particular, has acidic conditions that help kill many bacteria and other pathogens. Additionally, the immune cells in the digestive tract help protect the body from infections.</p>
+  </section>
+  <section>
+      <h2>Hormone Production</h2>
+      <p>Various hormones are produced and released by organs of the digestive system, such as the stomach and small intestine. These hormones play a role in regulating digestion, nutrient absorption, and overall metabolic processes.</p>
+  </section><br><br>
+<div id="system" class="jumbotron" >
+  <h1>The System in Detail</h1>
+<P class="lead">The human digestive system is well-suited for our needs, featuring a diverse set of specialized organs that efficiently process a wide range of foods. Its adaptability, from mechanical breakdown in the mouth to nutrient absorption in the small intestine, reflects the evolutionary efficiency of sustaining human energy and growth.</P></div>
+  <br><br>
+  <div id="organ" class="container">
+    <div class="profile-card">
+        <img src="download (10).jpeg" alt="Stomach" style="width: 100%; height: 100%;">
+        <h2>Stomach</h2>
+        <p>The stomach is a muscular organ that stores and breaks down food through mechanical and chemical digestion.</p>
+    </div>
+    <div class="profile-card">
+        <img src="download (8).jpeg" alt="Small Intestine">
+        <h2>Small Intestine</h2>
+        <p>The small intestine is responsible for nutrient absorption, extracting vital elements from the digested food.</p>
+    </div>
+    <div class="profile-card">
+        <img src="download (9).jpeg" alt="Liver">
+        <h2>Liver</h2>
+        <p>The liver produces bile, aiding in fat digestion, and plays a crucial role in detoxification and nutrient processing.</p>
+    </div>
+    <div class="profile-card">
+        <img src="download (11).jpeg" alt="Pancreas">
+        <h2>Pancreas</h2>
+        <p>The pancreas produces digestive enzymes and hormones, contributing to the breakdown of carbohydrates, fats, and proteins.</p>
+    </div></div>
+<br><br>
+<div id="contact" class="container">
+<footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
+  <p style="font-family: Arial, sans-serif; font-size: 16px;">  DIGEST/UR/THOUGHT WEB</p>
+  <p style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">Email:Digest123@hotmail.com</p>
+  <p style="font-family: 'Courier New', Courier, monospace; font-size: 16px;">Address: 123 Waimanu road, Los Angelos, America</p>
+  <p style="font-family: 'Comic Sans MS', cursive, sans-serif; font-size: 16px;">© 2023 Your Company. All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>
